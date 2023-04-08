@@ -1,6 +1,6 @@
 # Laravel Test API Project
 
-[![Tests](https://github.com/danilobd/laravel-test/workflows/ci/badge.svg)](https://github.com/danilobd/laravel-test/actions)
+![Tests](https://github.com/danilobd/laravel-test/actions/workflows/ci.yml/badge.svg?branch=main)
 
 ## Installation
 
