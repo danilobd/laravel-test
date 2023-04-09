@@ -17,10 +17,22 @@ docker run --rm \
 
 ```
 
+Copy the **.env.example** file to **.env**:
+
+```sh
+cp .env.example .env
+```
+
 Then run the containers:
 
 ```sh
 sail up -d
+```
+
+And generate the app key:
+
+```sh
+ sail artisan key:generate
 ```
 
 Create the tables in database and add test data:
@@ -63,7 +75,7 @@ sail up
 Otherwise you need to execute like:
 
 ```sh
-./vendor/bin/sail up -d
+./vendor/bin/sail up
 ```
 
 On terminal run:
